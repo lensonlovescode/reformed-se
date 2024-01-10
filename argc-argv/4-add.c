@@ -6,18 +6,22 @@
  * @argv: this is the array of arguments
  * Return: this will return 0
  */
+int isInteger(const char *str);
 int main(int argc, char *argv[])
 {
+	int i;
+	int sum;
+
 	if (argc <= 1){
 		printf("%d\n", 0);
 	}
 	else{
 		for (i = 1; i < argc; i++){
-			if (!isInteger(argv[i]) {
+			if (!isInteger(argv[i])){
 				printf("Error\n");
 				return (1);
 			}
-			else {
+			else{
 				sum = sum + atoi(argv[i]);
 			}
 		}
