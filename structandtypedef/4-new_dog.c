@@ -5,7 +5,7 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- *
+ * Return: will return a pointer to the created struct
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -14,7 +14,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	int owner_len;
 
 	doggy = malloc(sizeof(dog_t));
-	
+
 	if (name != NULL && owner != NULL)
 	{
 		doggy = malloc(sizeof(dog_t));
@@ -55,6 +55,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 int _strlen(char *s)
 {
 	int c = 0;
+
 	for (; *s != '\0'; s++)
 	{
 		c++;
