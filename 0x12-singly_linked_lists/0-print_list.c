@@ -10,7 +10,7 @@ size_t print_list(const list_t *h)
 
 	if (h == NULL)
 	{
-		printf("Empty list");
+		printf("Empty list\n");
 	}
 	count  = 0;
 
