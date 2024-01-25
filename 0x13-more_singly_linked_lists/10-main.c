@@ -47,10 +47,6 @@ int main(void)
  delete_nodeint_at_index(&head, 0);
  printf("-----------------\n");
  delete_nodeint_at_index(&head, 0);
-
-(/)
-1/15/24, 4:02 PM Project: 0x13. C - More singly linked lists | Nairobi Intranet
-https://intranet.alxswe.com/projects/230 23/33
  printf("-----------------\n");
  delete_nodeint_at_index(&head, 0);
  printf("-----------------\n");
